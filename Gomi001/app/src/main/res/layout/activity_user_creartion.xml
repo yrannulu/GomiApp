@@ -1,0 +1,183 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:fitsSystemWindows="true"
+    tools:context=".UserCreartionActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/gradient">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:id="@+id/profileImage"
+                android:src="@drawable/placeholderprofilepic"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/colorWhite"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextHint"
+                android:id="@+id/user_name"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength="50"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextuserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Driver Name"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:inputType="text"
+
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextHint"
+                android:id="@+id/user_email"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength="50"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextUserEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="user Email"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:inputType="textEmailAddress"
+
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextHint"
+                android:id="@+id/phone_no"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength="10">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ediTextphoneNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone No:"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:inputType="phone"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextHint"
+                android:id="@+id/password"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength="10">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:inputType="textPassword"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextHint"
+                android:id="@+id/reEnterPassword"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength="10">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ediTextReEnterPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Re-Enter password"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:inputType="textPassword"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <Button
+                    android:id="@+id/save_details"
+                    android:background="@drawable/mybutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:textAllCaps="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/create"
+                    android:textColor="@android:color/white"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/cancel_details"
+                    android:background="@drawable/mybuttondelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:text="Cancel"
+                    android:textAllCaps="true"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@android:color/white"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

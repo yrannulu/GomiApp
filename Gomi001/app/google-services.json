@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "423388788083",
+    "firebase_url": "https://gomi001-96b41-default-rtdb.firebaseio.com",
+    "project_id": "gomi001-96b41",
+    "storage_bucket": "gomi001-96b41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423388788083:android:44f17bf8f8e131e4ab0106",
+        "android_client_info": {
+          "package_name": "info.gomi.gomi001"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423388788083-efu14porepqtc9ci40qgrgrrkej72pu8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.gomi.gomi001",
+            "certificate_hash": "02ab63997227cb6cba8a6aecd6a8cd3687cb3116"
+          }
+        },
+        {
+          "client_id": "423388788083-pi7qb46qdn35dki0nudkctkusra3cj1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtvXxn3e0ifp4udAz6bspY5B4mcCIPzBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423388788083-pi7qb46qdn35dki0nudkctkusra3cj1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myAds"
+        android:title="My Ads."
+        android:icon="@drawable/ic_my_adds_black_24dp">
+
+
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:title="admin"
+        android:icon="@drawable/ic_settings_black_24dp">
+
+
+    </item>
+    <item
+        android:id="@+id/MyProfile"
+        android:title="Edit My Profile"
+        android:icon="@drawable/ic_my_profile_box_black_24dp">
+
+
+    </item>
+
+    <item
+        android:id="@+id/contactUs"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_question_answer_black_24dp">
+
+
+    </item>
+
+    <item
+        android:id="@+id/changePassword"
+        android:title="Change Password"
+        android:icon="@drawable/ic_lock_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/logOut"
+        android:title="Logout"
+        android:icon="@drawable/ic_log_out_black_24dp">
+
+    </item>
+
+</menu>
